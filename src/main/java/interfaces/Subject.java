@@ -1,10 +1,10 @@
 package interfaces;
 
 public interface Subject {
-    public void registerObserver();
+    void registerObserver(Observer o);
 
-    public void removeObserver();
+    void removeObserver(Observer o);
 
-    public void notifyObservers();
+    void notifyObservers();
 
 }
